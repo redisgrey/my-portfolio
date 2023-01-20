@@ -12,7 +12,7 @@ module.exports = {
             colors: {
                 border: "#e8dfec",
                 nav: "#fdf9ff",
-                home: "#f2f2fc",
+                home: "#0c3a2f",
                 textTitle: "#302e4d",
                 textLess: "#504e70",
                 textSpan: "#970017",

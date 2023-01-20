@@ -17,7 +17,7 @@
         />
         <title>GD - My Portfolio</title>
     </head>
-    <body class="font-[Poppins]">
+    <body id="body" class="font-[Poppins]">
         <main>
             <!-- Navigation Section -->
             <section id="navigation">
@@ -50,20 +50,22 @@
                 </div>
 
                 <!-- Hamburger Icon -->
-                <button
-                    id="menu-btn"
-                    class="block hamburger md:hidden focus:outline-none"
-                >
-                    <span class="hamburger-top"></span>
-                    <span class="hamburger-middle"></span>
-                    <span class="hamburger-bottom"></span>
-                </button>
+                <div class="fixed top-0 left-0 right-0 z-50">
+                    <button
+                        id="menu-btn"
+                        class="block hamburger md:hidden focus:outline-none"
+                    >
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
 
                 <!-- Mobile Menu -->
                 <div class="md:hidden">
                     <div
                         id="menu"
-                        class="w-auto hidden absolute z-10 flex-col text-xl items-center py-8 mt-10 space-y-6 bg-white left-6 right-6 drop-shadow-md"
+                        class="w-auto hidden fixed z-10 flex-col text-xl items-center py-8 mt-10 space-y-6 bg-white left-6 right-6 drop-shadow-md"
                     >
                         <a
                             href="#"
@@ -92,7 +94,7 @@
             <!-- Home Section -->
             <section id="home">
                 <div
-                    class="flex mx-auto mt-16 items-center text-center flex-col space-y-7 max-h-[75vh] md:ml-72 md:items-start md:mt-40 md:text-left"
+                    class="flex mx-auto bg-slate-600 justify-center items-center text-center flex-col space-y-7 min-h-[100vh] md:ml-72 md:items-start md:text-left"
                 >
                     <h1 class="text-6xl">
                         Hello, I'm
