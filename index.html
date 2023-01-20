@@ -17,7 +17,7 @@
         />
         <title>GD - My Portfolio</title>
     </head>
-    <body id="body" class="font-[Poppins]">
+    <body id="body" class="font-[Poppins] bg-home">
         <main>
             <!-- Navigation Section -->
             <section id="navigation">
@@ -28,22 +28,22 @@
                     <div class="hidden flex-col space-y-8 md:flex">
                         <a
                             href="#"
-                            class="hover:text-textLess pb-2 w-32 mx-auto border-b-[1px]"
+                            class="hover:text-home pb-2 w-32 mx-auto border-b-[1px]"
                             ><i class="bi bi-house-fill"></i> Home</a
                         >
                         <a
                             href="#about"
-                            class="hover:text-textLess pb-2 w-32 mx-auto border-b-[1px]"
+                            class="hover:text-home pb-2 w-32 mx-auto border-b-[1px]"
                             ><i class="bi bi-person-fill"></i> About</a
                         >
                         <a
                             href="#projects"
-                            class="hover:text-textLess pb-2 w-32 mx-auto border-b-[1px]"
+                            class="hover:text-home pb-2 w-32 mx-auto border-b-[1px]"
                             ><i class="bi bi-briefcase-fill"></i> Projects</a
                         >
                         <a
                             href="#contact"
-                            class="hover:text-textLess pb-2 w-32 mx-auto border-b-[1px]"
+                            class="hover:text-home pb-2 w-32 mx-auto border-b-[1px]"
                             ><i class="bi bi-telephone-fill"></i> Contact</a
                         >
                     </div>
@@ -65,26 +65,26 @@
                 <div class="md:hidden">
                     <div
                         id="menu"
-                        class="w-auto hidden fixed z-10 flex-col text-xl items-center py-8 mt-10 space-y-6 bg-white left-6 right-6 drop-shadow-md"
+                        class="w-auto hidden fixed z-10 flex-col text-xl items-center py-8 mt-10 space-y-6 bg-home left-6 right-6 drop-shadow-md"
                     >
                         <a
                             href="#"
-                            class="hover:text-textLess pb-2 w-32 mx-auto border-b-[1px]"
+                            class="hover:text-textSpan pb-2 w-32 mx-auto border-b-[1px]"
                             ><i class="bi bi-house-fill"></i> Home</a
                         >
                         <a
                             href="#about"
-                            class="hover:text-textLess pb-2 w-32 mx-auto border-b-[1px]"
+                            class="hover:text-textSpan pb-2 w-32 mx-auto border-b-[1px]"
                             ><i class="bi bi-person-fill"></i> About</a
                         >
                         <a
                             href="#projects"
-                            class="hover:text-textLess pb-2 w-32 mx-auto border-b-[1px]"
+                            class="hover:text-textSpan pb-2 w-32 mx-auto border-b-[1px]"
                             ><i class="bi bi-briefcase-fill"></i> Projects</a
                         >
                         <a
                             href="#contact"
-                            class="hover:text-textLess pb-2 w-32 mx-auto border-b-[1px]"
+                            class="hover:text-textSpan pb-2 w-32 mx-auto border-b-[1px]"
                             ><i class="bi bi-telephone-fill"></i> Contact</a
                         >
                     </div>
@@ -107,26 +107,50 @@
                     <h2 class="text-xl">
                         From a college dropout to a
                         <span
-                            class="block text-textTitle font-extrabold text-3xl md:inline"
+                            class="block text-textSpan font-extrabold text-3xl md:inline"
                             >FULL STACK DEVELOPER.</span
                         >
                     </h2>
 
                     <!-- Button -->
                     <a
-                        href="#"
-                        class="w-32 py-3 px-7 text-center text-white bg-textSpan rounded-full baseline hover:bg-opacity-[0.5] transition-[0.5s]"
+                        href="mailto:dahltamares89@gmail.com"
+                        class="w-32 py-3 px-7 text-center text-home bg-textSpan rounded-full baseline hover:bg-pink hover:text-textTitle hover:font-bold"
                         >Hire me</a
                     >
 
                     <!-- Social Links -->
 
                     <div class="text-4xl">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                        <a href="#"><i class="bi bi-github"></i></a>
-                        <a href="#"><i class="bi bi-google"></i></a>
+                        <a
+                            href="https://www.facebook.com/profile.php?id=100010167907982&mibextid=ZbWKwL"
+                            target="_blank"
+                            class="hover:text-gray"
+                            ><i class="bi bi-facebook"></i
+                        ></a>
+                        <a
+                            href="https://mobile.twitter.com/arattulog"
+                            target="_blank"
+                            class="hover:text-gray"
+                            ><i class="bi bi-twitter"></i
+                        ></a>
+                        <a
+                            href="https://www.linkedin.com/jobs/view/3435715092/?fbclid=IwAR0Y9c9Avwq6ughPGuEUb1oOyWDUeCLT-Lyhu23JlkudYFSm0Bm2gS5_43w"
+                            target="_blank"
+                            class="hover:text-gray"
+                            ><i class="bi bi-linkedin"></i
+                        ></a>
+                        <a
+                            href="https://github.com/redisgrey"
+                            target="_blank"
+                            class="hover:text-gray"
+                            ><i class="bi bi-github"></i
+                        ></a>
+                        <a
+                            href="mailto:dahltamares89@gmail.com"
+                            class="hover:text-gray"
+                            ><i class="bi bi-google"></i
+                        ></a>
                     </div>
                 </div>
             </section>
@@ -245,8 +269,9 @@
 
                     <!-- Button -->
                     <a
-                        href="#"
-                        class="w-44 py-3 px-7 text-center text-white bg-textSpan rounded-full baseline hover:bg-opacity-[0.5] transition-[0.5s]"
+                        href="./images/my-resume.pdf"
+                        download="resume"
+                        class="w-44 py-3 px-7 text-center text-home bg-textSpan rounded-full baseline hover:bg-pink hover:text-textTitle hover:font-bold transition-[0.5s]"
                         >Download CV</a
                     >
                 </div>
@@ -274,8 +299,9 @@
                                     HTML | CSS | JAVASCRIPT
                                 </p>
                                 <a
-                                    class="mt-2 bg-nav text-textSpan rounded-md p-2 text-center"
-                                    href="#"
+                                    class="mt-2 bg-textTitle text-home rounded-md p-2 text-center hover:bg-pink hover:text-textTitle"
+                                    href="https://redisgrey.github.io/G-Drive/website_pages/index.html"
+                                    target="_blank"
                                     >Visit Website</a
                                 >
                             </div>
@@ -338,11 +364,35 @@
                     <h3>GD Tamares.</h3>
                     <h3>Copyright &copy; 2023, All Rights Reserved</h3>
                     <div class="text-md">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                        <a href="#"><i class="bi bi-github"></i></a>
-                        <a href="#"><i class="bi bi-google"></i></a>
+                        <a
+                            href="https://www.facebook.com/profile.php?id=100010167907982&mibextid=ZbWKwL"
+                            target="_blank"
+                            class="hover:text-gray"
+                            ><i class="bi bi-facebook"></i
+                        ></a>
+                        <a
+                            href="https://mobile.twitter.com/arattulog"
+                            target="_blank"
+                            class="hover:text-gray"
+                            ><i class="bi bi-twitter"></i
+                        ></a>
+                        <a
+                            href="https://www.linkedin.com/jobs/view/3435715092/?fbclid=IwAR0Y9c9Avwq6ughPGuEUb1oOyWDUeCLT-Lyhu23JlkudYFSm0Bm2gS5_43w"
+                            target="_blank"
+                            class="hover:text-gray"
+                            ><i class="bi bi-linkedin"></i
+                        ></a>
+                        <a
+                            href="https://github.com/redisgrey"
+                            target="_blank"
+                            class="hover:text-gray"
+                            ><i class="bi bi-github"></i
+                        ></a>
+                        <a
+                            href="mailto:dahltamares89@gmail.com"
+                            class="hover:text-gray"
+                            ><i class="bi bi-google"></i
+                        ></a>
                     </div>
                 </div>
             </footer>
